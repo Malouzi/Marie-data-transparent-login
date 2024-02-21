@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(./Dornröschen2.png) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Dornröschen2.png);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 800px;
+}
+
+form {
+    background-color: transparent;
+    padding: 20px;
+}
+
+.input-container {
+    font-weight: bold;
+}
+.input-container input::placeholder {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    margin: 20px 0;
+    background-color: transparent;
+    color: white;
+    border-bottom: 3px solid green;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+}
+
+.signin-btn {
+    width: 400px;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid green;
+    border-radius: 10px;
+    margin-top: 50px;
+    font-size: 25px;
+}
