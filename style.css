@@ -2,9 +2,9 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url(./Dornröschen2.png) no-repeat center center fixed;
+    /*background: url(./Dornröschen2.png);*/
     background-size: cover;
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./Dornröschen2.png);
 }
 
@@ -16,6 +16,18 @@ body {
     text-align: center;
     width: 800px;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.login {
+    border-bottom: 5px solid green;
+    margin: auto;
+    width: 400px;
+}
+
 
 form {
     background-color: transparent;
